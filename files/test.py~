@@ -1,0 +1,5 @@
+from astropy.io import fits as fy
+
+hdulist = fy.open('SPITZER_I2_46467072_0001_0000_2_bcd.fits')
+header = hdulist[0].header
+print header.keys()
