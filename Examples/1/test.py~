@@ -1,4 +1,0 @@
-from astropy import fits
-hdulist = fits.open('SPITZER_I2_46467072_0006_0000_2_bcd.fits')
-header1 = hdulist[0].header
-print( repr(header1) )
